@@ -1,0 +1,83 @@
+p {
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-size: large;
+    font-family: sans-serif;
+}
+
+div{
+    padding-top: 2%;
+}
+
+
+h2{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container1{
+    background-color: black ;
+    
+}
+.container2{
+    /* padding: 0%; */
+    background-color: beige;
+}
+
+        div {
+            border: solid;
+        }
+
+
+        @media only screen and (min-width: 100px) {
+            /* For tablets: */
+
+            /* this will change the container class background to red when tablet*/
+
+            .col {
+                background-color: beige;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: green;
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgreen;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: gray;
+            }
+        }
+
+        Orientation of landscape
+
+        {@media only screen and (orientation: landscape) {
+            /* this will change the background to light blue when view is landscape */
+            background-color: lightpink;
+        }
+
+        }
+img{
+    height:150px; margin:0px;
+}
+body{
+    font-family: sans-serif;
+}
